@@ -18,22 +18,22 @@ function Menu() {
       <img className="logo" src={logo} alt="logoempresa"></img>
       <div className="menus">
 
-        {location.pathname === '/' &&
-          <a className="active" href="/">Dashboard</a> ||
+        {(location.pathname === '/' &&
+          <a className="active" href="/">Dashboard</a>) ||
           <a className="menu" href="/">Dashboard</a>
         }
 
-        {location.pathname === '/estoque/edit' &&
-          <a className="active" href="/estoque">Estoque</a>
+        {(location.pathname === '/estoque/edit' &&
+          <a className="active" href="/estoque">Estoque</a>)
           ||
-          location.pathname === '/estoque' &&
-          <a className="active" href="/estoque">Estoque</a> ||
+          (location.pathname === '/estoque' &&
+            <a className="active" href="/estoque">Estoque</a>) ||
           <a className="menu" href="/estoque">Estoque</a>
 
         }
 
-        {location.pathname === '/relatorios' &&
-          <a className="active" href="/relatorios">Gerar Relatórios</a> ||
+        {(location.pathname === '/relatorios' &&
+          <a className="active" href="/relatorios">Gerar Relatórios</a>) ||
           <a className="menu" href="/relatorios">Gerar Relatórios</a>
         }
 
