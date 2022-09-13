@@ -3,12 +3,12 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-containers);
-  height: 71px;
+  height: 12.4vh;
   width: 92%;
-  margin-top: 12.5px;
-  padding: 30px;
+  margin-top: 2vh;
+  padding: 2vw;
   border-radius: 30px;
-  font-size: 11px;
+  font-size: 1.7vh;
   text-transform: capitalize;
 }
 
@@ -39,7 +39,7 @@
 
 .produto {
   text-transform: uppercase;
-  font-size: 19px;
+  font-size: 3vh;
 }
 
 .modelo {

@@ -3,7 +3,7 @@ header {
   background-color: var(--color-containers);
   align-items: center;
   justify-content: space-between;
-  width: 1030px;
+  width: 80vw;
   height: 17vh;
   box-shadow: 9px 7px 17px -1px rgba(0, 0, 0, 0.46);
 }

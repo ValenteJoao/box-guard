@@ -11,7 +11,7 @@
 }
 
 .containerAdd>h1 {
-  font-size: 50px;
+  font-size: 8vh;
   line-height: 40px;
   text-align: center;
   margin-top: 40px;
@@ -52,7 +52,7 @@ form>div>div {
 }
 
 label {
-  font-size: 16px;
+  font-size: 14px;
   display: flex;
   align-items: center;
   margin-right: 5px;

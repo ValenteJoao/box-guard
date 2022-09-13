@@ -1,13 +1,13 @@
 .navLeft {
   background-color: var(--color-containers);
   height: 100vh;
-  width: 250px;
+  width: 20vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   box-shadow: 5px 1px 7px -4px rgba(0, 0, 0, 0.75);
-  z-index: 2;
+  z-index: 1;
 }
 
 .logo {
@@ -20,9 +20,9 @@
   display: flex;
   flex-direction: column;
   text-align: right;
-  font-size: 24px;
+  font-size: 2vw;
   font-weight: 900;
-  padding-left: 48px;
+  padding-left: 3vw;
   margin-bottom: 40px;
 }
 
@@ -32,7 +32,7 @@
   cursor: default;
   border-radius: 15px 0px 0px 15px;
   margin: 4px;
-  padding: 7px 17px 7px 15px;
+  padding: 1vh 1.5vw 1vh 1.4vw;
   text-transform: uppercase;
 }
 
@@ -41,7 +41,7 @@
   background-color: var(--cor-botao-menu);
   border-radius: 15px 0px 0px 15px;
   margin: 4px;
-  padding: 7px 17px 7px 15px;
+  padding: 1vh 1.5vw 1vh 1.4vw;
   text-transform: uppercase;
   transition: all 0.2s ease;
 }
@@ -69,12 +69,11 @@
 .nameperfil>img {
   width: 35%;
   border-radius: 100%;
-  border: 2px solid var(--color-azul-claro-texto);
+  border: 3px solid var(--color-azul-claro-texto);
   margin-bottom: 5px;
 }
 
 .name {
-  margin-left: 10px;
   font-size: 20px;
   font-weight: 900;
 }
@@ -87,7 +86,6 @@
 }
 
 .sair {
-  margin-left: 5px;
   font-weight: 900;
   color: var(--color-azul-claro-texto);
   cursor: pointer;

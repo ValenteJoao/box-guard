@@ -1,6 +1,6 @@
 .containerPaginacao {
   position: absolute;
-  bottom: 13px;
+  bottom: 2vh;
   right: 50px;
   z-index: 1;
 }
