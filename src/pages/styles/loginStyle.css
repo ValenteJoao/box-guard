@@ -1,0 +1,60 @@
+.divLogin {
+  height: 99vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.divLogin>.logo {
+  width: 10%;
+  margin: 0px;
+}
+
+.divLogin>main {
+  height: 40%;
+  background-color: var(--color-containers);
+  border-radius: 20px;
+  width: 38%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 6px 5px 15px 5px #00000032;
+  margin: 0px;
+}
+
+.bemvindo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bemvindo>h1 {
+  font-size: 40px;
+}
+
+.bemvindo>p {
+  font-size: 15px;
+}
+
+.divLogin>main>button {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-containers);
+  border-radius: 18px;
+  border: 3px solid var(--cor-botao);
+  font-size: 16px;
+  padding: 12px;
+  margin-top: 20px;
+  transition: all 0.1s ease-in;
+}
+
+.divLogin>main>button:hover {
+  background-color: var(--cor-botao);
+  border: 3px solid var(--cor-botao);
+}
+
+.google {
+  margin-right: 8px;
+}

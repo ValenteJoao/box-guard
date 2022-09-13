@@ -1,0 +1,111 @@
+.containerAdd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh;
+  width: 50vw;
+  background-color: var(--color-containers);
+  margin-top: 10vh;
+  border-radius: 20px;
+}
+
+.containerAdd>h1 {
+  font-size: 50px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+.iconeClose {
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  top: 13vh;
+  right: 27vw;
+  font-size: 200%;
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.iconeClose:hover {
+  transform: scale(1.1);
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: -20px;
+}
+
+form>div {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+form>div>div {
+  margin: 3px;
+}
+
+label {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.input {
+  border-radius: 10px;
+  border: none;
+  padding: 8px;
+  color: black;
+  font-size: 16px;
+  outline: none;
+  margin-top: 3px;
+  text-transform: capitalize;
+}
+
+.input::placeholder {
+  color: rgba(0, 0, 0, 0.349);
+}
+
+.botaoSubmit {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 800;
+  width: 400px;
+  margin: 30px 0px 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--cor-botao);
+  cursor: pointer;
+  transition: all 0.05s ease-in;
+}
+
+.botaoSubmit:hover {
+  transform: scale(1.05);
+}
+
+.numberInput {
+  text-align: center;
+  width: 140px;
+}
+
+.numberInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.estoque {
+  margin: 0 10px;
+  width: 50px;
+}
+
+.futuro {
+  margin-left: 20px;
+}

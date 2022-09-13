@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-containers);
+  height: 71px;
+  width: 92%;
+  margin-top: 12.5px;
+  padding: 30px;
+  border-radius: 30px;
+  font-size: 11px;
+  text-transform: capitalize;
+}
+
+.edit {
+  height: 40px;
+  width: 40px;
+  background-color: var(--cor-botao);
+  padding: 10px;
+  border-radius: 100%;
+  font-size: 20px;
+  transition: all 0.2s ease;
+}
+
+.edit:hover,
+.apagar:hover {
+  transform: scale(1.09);
+}
+
+.apagar {
+  height: 40px;
+  width: 40px;
+  background-color: var(--cor-delete);
+  padding: 10px;
+  border-radius: 100%;
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+.produto {
+  text-transform: uppercase;
+  font-size: 19px;
+}
+
+.modelo {
+  text-transform: uppercase;
+}

@@ -1,0 +1,18 @@
+.containerPaginacao {
+  position: absolute;
+  bottom: 13px;
+  right: 50px;
+  z-index: 1;
+}
+
+.paginacao {
+  margin-left: 5px;
+  background-color: var(--background-color);
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.paginacao:hover {
+  background-color: var(--color-hover-containers);
+}

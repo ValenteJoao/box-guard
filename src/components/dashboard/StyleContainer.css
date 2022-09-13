@@ -1,0 +1,84 @@
+.containerDashboard {
+  text-transform: uppercase;
+  width: 65vw;
+  height: 83vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section {
+  height: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 8px;
+}
+
+.section1 {
+  width: 35vw;
+  border-radius: 20px;
+  background-color: var(--color-containers);
+  box-shadow: 5px 8px 7px -4px rgba(0, 0, 0, 0.75);
+}
+
+.section2 {
+  width: 50vw;
+}
+
+.produtosContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.escuro {
+  background-color: var(--cor-escura-Dashboard);
+}
+
+.numberEstoque {
+  background-color: var( --cor-escura-Numero-Dashboard);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.containerDashboard2 {
+  width: 100%;
+  background-color: var(--color-containers);
+  height: 31vh;
+  border-radius: 20px;
+  box-shadow: 5px 8px 7px -4px rgba(0, 0, 0, 0.75);
+}
+
+.icone {
+  font-size: 90px;
+}
+
+.produtosContainer2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.containerLateral {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.dinheiro {
+  font-size: 28px;
+  background-color: var(--cor-escura-Numero-Dashboard);
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.containerLateral>h2 {
+  margin: 20px;
+}

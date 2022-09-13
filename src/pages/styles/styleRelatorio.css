@@ -1,0 +1,28 @@
+.ContainerBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 83vh;
+}
+
+.btnRelatorio {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+  width: 400px;
+  margin: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--cor-botao);
+  cursor: pointer;
+  transition: all 0.05s ease-in;
+}
+
+.btnRelatorio:hover {
+  transform: scale(1.05);
+}

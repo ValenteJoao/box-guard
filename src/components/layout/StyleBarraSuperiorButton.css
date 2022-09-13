@@ -1,0 +1,90 @@
+header {
+  display: flex;
+  background-color: var(--color-containers);
+  align-items: center;
+  justify-content: space-between;
+  width: 1030px;
+  height: 17vh;
+  box-shadow: 9px 7px 17px -1px rgba(0, 0, 0, 0.46);
+}
+
+header>h1 {
+  flex: 20;
+  color: var(--color-texto);
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0px 50px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  right: 150px;
+  justify-content: space-between;
+  background-color: var(--cor-botao);
+  height: 50px;
+  padding: 0px;
+  border-radius: 40px;
+}
+
+.search-box:hover>.search-txt {
+  width: 240px;
+  padding: 20px;
+  background-color: var(--color-azul-claro-texto);
+  height: 50px;
+}
+
+.search-txt {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 0;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+  width: 0;
+  height: 50px;
+  border-radius: 40px 0px 0px 40px;
+  transition: all 0.5s ease-in-out;
+}
+
+.search-txt::placeholder {
+  color: #ffffff;
+}
+
+.g-search {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gg-search {
+  color: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+.btnAdd {
+  font-size: 30px;
+  font-weight: 600;
+  height: 50px;
+  width: 50px;
+  background-color: var(--cor-botao);
+  border: none;
+  border-radius: 100%;
+  margin-right: 50px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.btnAdd:hover {
+  transform: scale(1.1);
+  color: var(--cor-botao);
+  background-color: #ffffff;
+}
