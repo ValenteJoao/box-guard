@@ -65,7 +65,7 @@
   }
 
   .produtosEstoque {
-    height: 73vh;
+    height: 69vh;
     width: 90%;
     overflow-y: auto;
     padding-bottom: 10px;
@@ -78,7 +78,7 @@
 
   .produto {
     text-transform: uppercase;
-    max-width: 24ch;
+    max-width: 20ch;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;

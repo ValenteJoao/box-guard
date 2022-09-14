@@ -10,7 +10,7 @@ function Menu() {
 
   const { signOut } = useContext(AuthGoogleContext);
   const userLogado = JSON.parse(sessionStorage.getItem('@Auth:user'))
-  console.log(userLogado.photoURL)
+
 
   let location = useLocation();
 

@@ -112,9 +112,9 @@ label {
 
 @media (max-width:767px) {
   .containerAdd {
-    height: 95vh;
+    height: 85vh;
     width: 90vw;
-    margin-top: 2.5vh;
+    margin-top: 4vh;
     justify-content: space-evenly;
   }
 
@@ -140,31 +140,31 @@ label {
 
   .input {
     padding: 8px;
-    font-size: 2vh;
+    font-size: 14px;
     margin: 5px;
   }
 
   .botaoSubmit {
-    font-size: 3vh;
+    font-size: 18px;
     width: 60vw;
     margin: 10px 0px 0px;
-    padding: 1.5vh;
+    padding: 10px;
   }
 
   .containerAdd>h1 {
-    font-size: 6vh;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 35px;
     margin-top: 5px;
   }
 
   .iconeClose {
-    top: 0vh;
+    top: 2vh;
     right: 2vw;
     font-size: 200%;
   }
 
   label {
-    font-size: 2vh;
+    font-size: 14px;
     display: flex;
     align-items: center;
     margin-right: 0px;
