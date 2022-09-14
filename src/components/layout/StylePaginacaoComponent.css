@@ -16,3 +16,30 @@
 .paginacao:hover {
   background-color: var(--color-hover-containers);
 }
+
+@media (max-width:767px) {
+  .containerPaginacao {
+    display: flex;
+    position: relative;
+    z-index: 0;
+    bottom: 0px;
+    right: 0px;
+    margin-top: 10px;
+  }
+
+  .paginacao {
+    margin-left: 5px;
+    background-color: var(--background-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+  }
+
+  .paginacao {
+    margin-left: 5px;
+    background-color: var(--color-hover-containers);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+  }
+}

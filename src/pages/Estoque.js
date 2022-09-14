@@ -89,18 +89,20 @@ export default function Estoque() {
           handleOnChange={handleBusca}
           value={busca} />
 
-        {busca.length === 0 && gerarElementos(currentItens) || gerarElementos(filtradas)}
+        <div className="produtosEstoque">
+          {busca.length === 0 && gerarElementos(currentItens) || gerarElementos(filtradas)}
+          <PaginacaoComponent
+            setCurrentPage={setCurrentPage}
+            pages={pages}
+            currentPage={currentPage}
+          />
 
-        <PaginacaoComponent
-          setCurrentPage={setCurrentPage}
-          pages={pages}
-          currentPage={currentPage}
-        />
+          <BarraInferior
+            textA='Itens Cadastrados'
+            infoA={totalDeItens}
+          />
+        </div>
 
-        <BarraInferior
-          textA='Itens Cadastrados'
-          infoA={totalDeItens}
-        />
 
 
       </main>

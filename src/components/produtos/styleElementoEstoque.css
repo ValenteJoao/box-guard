@@ -1,3 +1,10 @@
+.produtosEstoque {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -44,4 +51,53 @@
 
 .modelo {
   text-transform: uppercase;
+}
+
+@media (max-width:767px) {
+  .container {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40%;
+    width: 95%;
+    text-align: center;
+    margin: 10px 0px 0px;
+    padding: 10px 0px;
+  }
+
+  .produtosEstoque {
+    height: 73vh;
+    width: 90%;
+    overflow-y: auto;
+    padding-bottom: 10px;
+    white-space: nowrap;
+  }
+
+  .produtosEstoque::-webkit-scrollbar {
+    display: none;
+  }
+
+  .produto {
+    text-transform: uppercase;
+    max-width: 24ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 2.5vh;
+    margin-bottom: 5px;
+  }
+
+  .infoEstoque {
+    display: flex;
+  }
+
+
+  .infoEstoque>h2 {
+    font-size: 11px;
+    margin: 10px 5px 10px;
+  }
+
+  .container {
+    font-size: 1.5vh;
+  }
+
 }

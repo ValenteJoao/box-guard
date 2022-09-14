@@ -26,3 +26,15 @@
 .btnRelatorio:hover {
   transform: scale(1.05);
 }
+
+@media (max-width:767px) {
+  .ContainerBtn {
+    width: 50vw;
+    height: 72.5vh;
+  }
+
+  .btnRelatorio {
+    width: 200px;
+    margin: 15px;
+  }
+}

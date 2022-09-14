@@ -88,3 +88,39 @@ header>h1 {
   color: var(--cor-botao);
   background-color: #ffffff;
 }
+
+@media (max-width:767px) {
+  header {
+    width: 100vw;
+    z-index: 1;
+    box-shadow: 2px 5px 5px -1px rgba(0, 0, 0, 0.46);
+  }
+
+  .search-box {
+    display: none
+  }
+
+  .btnAdd {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    height: 40px;
+    width: 40px;
+    background-color: var(--cor-botao);
+    border: none;
+    border-radius: 50%;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+
+  header>h1 {
+    color: var(--color-texto);
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+  }
+
+
+}

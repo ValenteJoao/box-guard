@@ -32,19 +32,21 @@ function ContainerDashboard({ estoqueCadastrados, estoque, estoqueFuturo, valorE
               <AiFillDropboxCircle className='icone' />
               <h2>Valor de<br />estoque atual</h2>
             </div>
+            
             <h2 className='dinheiro'>{valorEstoque}</h2>
           </div>
 
         </div>
 
-        <div className='containerDashboard2'>
+        <div className='containerDashboard2 patrimonio'>
 
-          <div className='produtosContainer2'>
+          <div className='produtosContainer2' >
 
             <div className='containerLateral'>
               <RiMoneyDollarCircleFill className='icone' />
               <h2>Patrimônio total</h2>
             </div>
+
             <h2 className='dinheiro'>{patrimonio}</h2>
           </div>
 

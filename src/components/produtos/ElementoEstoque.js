@@ -19,12 +19,13 @@ function ProdutoEstoque({ produto, cor, custo, estoque, estoqueFuturo, id }) {
 
   return (
     <>
-      <div>
+      <div className='infoproduto'>
         <h2 className='produto'>{produto}</h2>
         <h2>Modelo: <span className='modelo'>{cor}</span></h2>
       </div>
+
       <h2>Custo: <span>{custo}</span></h2>
-      <div>
+      <div className='infoEstoque'>
         <h2>Estoque Atual: <span>{estoque} Un</span></h2>
         <h2>Para Chegar: <span>{estoqueFuturo} Un</span></h2>
       </div>

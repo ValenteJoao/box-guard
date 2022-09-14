@@ -43,12 +43,13 @@ button {
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-color: var(--background-color);
   display: flex;
   align-content: center;
   justify-content: center;
   overflow-x: hidden;
+  overflow-y: hidden;
 
 }

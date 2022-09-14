@@ -31,7 +31,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  
+
 }
 
 .escuro {
@@ -39,7 +39,7 @@ section {
 }
 
 .numberEstoque {
-  background-color: var( --cor-escura-Numero-Dashboard);
+  background-color: var(--cor-escura-Numero-Dashboard);
   padding: 10px;
   border-radius: 5px;
 }
@@ -81,4 +81,63 @@ section {
 
 .containerLateral>h2 {
   margin: 20px;
+}
+
+
+@media (max-width:767px) {
+  .containerDashboard {
+    width: 100vw;
+    flex-direction: column;
+    height: 70vh;
+  }
+
+  section {
+    margin: 0px;
+  }
+
+  .section1 {
+    height: 70vh;
+    width: 80vw;
+    margin: 20px;
+  }
+
+
+  .section2 {
+    height: 50vh;
+    width: 80vw;
+    margin: 0;
+  }
+
+  .produtosContainer {
+    font-size: 12px;
+  }
+
+  .produtosContainer2 {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .patrimonio {
+    display: none;
+  }
+
+  .containerLateral {
+    text-align: center;
+    justify-content: center;
+  }
+
+
+  .icone {
+    margin-left: 25px;
+    margin-right: -20px;
+    font-size: 90px;
+  }
+
+  .dinheiro {
+    font-size: 24px;
+    background-color: var(--cor-escura-Numero-Dashboard);
+    padding: 8px;
+    border-radius: 10px;
+  }
 }

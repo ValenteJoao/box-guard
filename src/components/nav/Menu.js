@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom';
 import { AuthGoogleContext } from '../../contexts/authGoogle'
 import './StyleMenu.css';
 import logo from '../../assets/img/logo.png'
+import { RiLogoutCircleLine } from 'react-icons/ri'
 
 function Menu() {
 
@@ -44,8 +45,8 @@ function Menu() {
           <p className="name">{userLogado.displayName}</p>
         </div>
         <div className="perfilsair">
-          <i className="gg-log-off"></i>
           <a onClick={() => signOut()} className="sair">Sair</a>
+          <RiLogoutCircleLine className='RiLogoutCircleLine' onClick={() => signOut()} />
         </div>
       </div>
     </nav>
