@@ -1,6 +1,6 @@
 # Box Guard - Sistema de Gerenciamento de Estoque
 
-![Logo do Sistema](/src/assets/img/logo.png)
+<img src="/src/assets/img/logo.png" alt="Logo do Sistema" width="200" height="200">
 
 O Box Guard é um sistema completo de gerenciamento de estoque desenvolvido com ReactJS e Firebase. Ele oferece recursos avançados para controle de estoque, geração de relatórios e uma dashboard intuitiva, permitindo que empresas e empreendedores monitorem e otimizem suas operações de estoque de maneira eficiente. O sistema é totalmente responsivo, garantindo uma experiência perfeita em dispositivos móveis e desktops.
 
