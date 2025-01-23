@@ -25,8 +25,4 @@ O Box Guard foi desenvolvido utilizando as seguintes tecnologias:
 
 O Box Guard está hospedado na plataforma Vercel e pode ser acessado através do seguinte link: [Box Guard](https://box-guard.vercel.app/)
 
-## Contribuição
-
-No momento, o Box Guard é um projeto desenvolvido e mantido por João Valente, não sendo aberto para contribuições externas.
-
-Agradecemos pelo interesse no Box Guard e esperamos que o sistema seja útil para a gestão eficiente do estoque da sua empresa.
+PROJETO CRIADO EM 2022
