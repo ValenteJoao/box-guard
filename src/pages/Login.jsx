@@ -40,7 +40,6 @@ export default function Login() {
           </div>
 
           <div className="space-y-2 text-center">
-            <h1 className="text-3xl font-bold tracking-tight">Box Guard</h1>
             <p className="text-sm text-muted-foreground">
               A plataforma simples e segura para gerenciar seu estoque.
             </p>
